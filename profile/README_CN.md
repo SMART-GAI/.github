@@ -1,7 +1,12 @@
 # SMART项目：构建小而全的通用人工智能大脑
 
+<div align="center">
+
 <img src="../images/sparrow.png" width="300">
 
+[English](README.md) | [简体中文](README_CN.md)
+
+</div>
 
 受当前多模态AI技术突破的启发——涵盖图像、视频、音频、文本、音乐、数学、编程与机器人动作控制等领域——SMART项目
 （Small小型化、Multitalented多才多艺、Artistic艺术性、Realistic现实性、Trusting可信性）致力于开创通用

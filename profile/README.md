@@ -1,7 +1,12 @@
 # Project SMART: Building a Compact yet Versatile General AI Brain
 
+<div align="center">
 
 <img src="../images/sparrow.png" width="300">
+
+[English](README.md) | [简体中文](README_CN.md)
+
+</div>
 
 Inspired by recent breakthroughs in multimodal AI technologies—spanning image, video, audio, text, music,
 mathematics, programming, and robotic motion control—the SMART project (Small, Multitalented, Artistic,
