@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400" role="img" aria-label="专用人工智能与通用人工智能对比">
+<title>专用人工智能与通用人工智能对比</title>
+<style>text{font-family:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','WenQuanYi Zen Hei',sans-serif;fill:#0b0b0b} .s{fill:#52514e} .m{fill:#8a8984}</style>
+<rect width="840" height="400" rx="12" fill="#fcfcfb"/>
+<text x="210" y="46" font-size="22" font-weight="700" text-anchor="middle">专用人工智能（今天的大多数 AI）</text>
+<text x="210" y="72" font-size="14" class="s" text-anchor="middle">一个模型只会一件事，换个任务就要重新造</text>
+<rect x="40" y="100" width="160" height="110" rx="10" fill="#fff" stroke="#e4e3df" stroke-width="2"/>
+<text x="120" y="144" font-size="30" text-anchor="middle">♟</text>
+<text x="120" y="176" font-size="16" font-weight="700" text-anchor="middle">下棋 AI</text>
+<text x="120" y="197" font-size="13" class="s" text-anchor="middle">只会下棋</text>
+<rect x="220" y="100" width="160" height="110" rx="10" fill="#fff" stroke="#e4e3df" stroke-width="2"/>
+<text x="300" y="144" font-size="30" text-anchor="middle">🔤</text>
+<text x="300" y="176" font-size="16" font-weight="700" text-anchor="middle">翻译 AI</text>
+<text x="300" y="197" font-size="13" class="s" text-anchor="middle">只会翻译</text>
+<rect x="40" y="230" width="160" height="110" rx="10" fill="#fff" stroke="#e4e3df" stroke-width="2"/>
+<text x="120" y="274" font-size="30" text-anchor="middle">👁</text>
+<text x="120" y="306" font-size="16" font-weight="700" text-anchor="middle">识图 AI</text>
+<text x="120" y="327" font-size="13" class="s" text-anchor="middle">只会认图</text>
+<rect x="220" y="230" width="160" height="110" rx="10" fill="#fff" stroke="#e4e3df" stroke-width="2"/>
+<text x="300" y="274" font-size="30" text-anchor="middle">🎙</text>
+<text x="300" y="306" font-size="16" font-weight="700" text-anchor="middle">语音 AI</text>
+<text x="300" y="327" font-size="13" class="s" text-anchor="middle">只会听写</text>
+<line x1="420" y1="40" x2="420" y2="380" stroke="#e4e3df" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="630" y="46" font-size="22" font-weight="700" text-anchor="middle">通用人工智能（AGI）</text>
+<text x="630" y="72" font-size="14" class="s" text-anchor="middle">一个“大脑”，能学会、迁移、组合各种本领</text>
+<line x1="630" y1="242" x2="630.0" y2="117.0" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="604.0" y="102.0" width="52" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="630.0" y="122.0" font-size="14" text-anchor="middle">下棋</text>
+<line x1="630" y1="242" x2="703.5" y2="140.9" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="677.5" y="125.9" width="52" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="703.5" y="145.9" font-size="14" text-anchor="middle">翻译</text>
+<line x1="630" y1="242" x2="748.9" y2="203.4" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="722.9" y="188.4" width="52" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="748.9" y="208.4" font-size="14" text-anchor="middle">看图</text>
+<line x1="630" y1="242" x2="748.9" y2="280.6" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="722.9" y="265.6" width="52" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="748.9" y="285.6" font-size="14" text-anchor="middle">听说</text>
+<line x1="630" y1="242" x2="703.5" y2="343.1" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="669.5" y="328.1" width="68" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="703.5" y="348.1" font-size="14" text-anchor="middle">写代码</text>
+<line x1="630" y1="242" x2="630.0" y2="367.0" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="596.0" y="352.0" width="68" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="630.0" y="372.0" font-size="14" text-anchor="middle">做数学</text>
+<line x1="630" y1="242" x2="556.5" y2="343.1" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="530.5" y="328.1" width="52" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="556.5" y="348.1" font-size="14" text-anchor="middle">画画</text>
+<line x1="630" y1="242" x2="511.1" y2="280.6" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="477.1" y="265.6" width="68" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="511.1" y="285.6" font-size="14" text-anchor="middle">做实验</text>
+<line x1="630" y1="242" x2="511.1" y2="203.4" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="461.1" y="188.4" width="100" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="511.1" y="208.4" font-size="14" text-anchor="middle">操作机器人</text>
+<line x1="630" y1="242" x2="556.5" y2="140.9" stroke="#2a78d6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="514.5" y="125.9" width="84" height="30" rx="15" fill="#fff" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="556.5" y="145.9" font-size="14" text-anchor="middle">规划任务</text>
+<circle cx="630" cy="242" r="46" fill="#2a78d6"/>
+<text x="630" y="236" font-size="26" text-anchor="middle" style="fill:#fff">🧠</text>
+<text x="630" y="262" font-size="13" text-anchor="middle" style="fill:#fff" font-weight="700">通用大脑</text>
+</svg>

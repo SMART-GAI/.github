@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500" role="img" aria-label="通往通用人工智能的几条技术路线">
+<title>通往通用人工智能的几条技术路线</title>
+<style>text{font-family:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','WenQuanYi Zen Hei',sans-serif;fill:#0b0b0b} .s{fill:#52514e} .m{fill:#8a8984}</style>
+<rect width="960" height="500" rx="12" fill="#fcfcfb"/>
+<defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a8984"/></marker></defs>
+<text x="40" y="44" font-size="22" font-weight="700">通往 AGI 的几条路（它们并不互斥）</text>
+<rect x="40" y="80" width="340" height="48" rx="10" fill="#fff" stroke="#2a78d6" stroke-width="2"/>
+<rect x="40" y="80" width="8" height="48" rx="4" fill="#2a78d6"/>
+<text x="70" y="111" font-size="20">📈</text>
+<text x="104" y="102" font-size="16" font-weight="700">规模扩展</text>
+<text x="104" y="120" font-size="12" class="s">更多数据、算力、参数</text>
+<path d="M384,104 C520,104 520,250 640,250" fill="none" stroke="#2a78d6" stroke-width="2" stroke-opacity=".7"/>
+<rect x="40" y="138" width="340" height="48" rx="10" fill="#fff" stroke="#4a3aa7" stroke-width="2"/>
+<rect x="40" y="138" width="8" height="48" rx="4" fill="#4a3aa7"/>
+<text x="70" y="169" font-size="20">🤔</text>
+<text x="104" y="160" font-size="16" font-weight="700">推理与思考</text>
+<text x="104" y="178" font-size="12" class="s">先想再答，多步推演</text>
+<path d="M384,162 C520,162 520,250 640,250" fill="none" stroke="#4a3aa7" stroke-width="2" stroke-opacity=".7"/>
+<rect x="40" y="196" width="340" height="48" rx="10" fill="#fff" stroke="#1baf7a" stroke-width="2"/>
+<rect x="40" y="196" width="8" height="48" rx="4" fill="#1baf7a"/>
+<text x="70" y="227" font-size="20">🛠</text>
+<text x="104" y="218" font-size="16" font-weight="700">智能体</text>
+<text x="104" y="236" font-size="12" class="s">会用工具、能长时间干活</text>
+<path d="M384,220 C520,220 520,250 640,250" fill="none" stroke="#1baf7a" stroke-width="2" stroke-opacity=".7"/>
+<rect x="40" y="254" width="340" height="48" rx="10" fill="#fff" stroke="#eb6834" stroke-width="2"/>
+<rect x="40" y="254" width="8" height="48" rx="4" fill="#eb6834"/>
+<text x="70" y="285" font-size="20">🌍</text>
+<text x="104" y="276" font-size="16" font-weight="700">世界模型与具身</text>
+<text x="104" y="294" font-size="12" class="s">理解物理世界，控制机器人</text>
+<path d="M384,278 C520,278 520,250 640,250" fill="none" stroke="#eb6834" stroke-width="2" stroke-opacity=".7"/>
+<rect x="40" y="312" width="340" height="48" rx="10" fill="#fff" stroke="#eda100" stroke-width="2"/>
+<rect x="40" y="312" width="8" height="48" rx="4" fill="#eda100"/>
+<text x="70" y="343" font-size="20">🐦</text>
+<text x="104" y="334" font-size="16" font-weight="700">小而精的模型</text>
+<text x="104" y="352" font-size="12" class="s">高效、低能耗、可普及</text>
+<path d="M384,336 C520,336 520,250 640,250" fill="none" stroke="#eda100" stroke-width="2" stroke-opacity=".7"/>
+<rect x="40" y="370" width="340" height="48" rx="10" fill="#fff" stroke="#e34948" stroke-width="2"/>
+<rect x="40" y="370" width="8" height="48" rx="4" fill="#e34948"/>
+<text x="70" y="401" font-size="20">🧩</text>
+<text x="104" y="392" font-size="16" font-weight="700">持续学习与记忆</text>
+<text x="104" y="410" font-size="12" class="s">边用边学，不忘旧知</text>
+<path d="M384,394 C520,394 520,250 640,250" fill="none" stroke="#e34948" stroke-width="2" stroke-opacity=".7"/>
+<circle cx="720" cy="250" r="80" fill="#2a78d6"/>
+<text x="720" y="245" font-size="30" font-weight="700" text-anchor="middle" style="fill:#fff">AGI</text>
+<text x="720" y="272" font-size="13" text-anchor="middle" style="fill:#fff">通用人工智能</text>
+<rect x="40" y="440" width="880" height="40" rx="10" fill="#eef3e9" stroke="#008300" stroke-width="1.5"/>
+<text x="480" y="466" font-size="15" text-anchor="middle">🛡 地基：安全与对齐 —— 可解释、可控制、符合人类价值观</text>
+</svg>

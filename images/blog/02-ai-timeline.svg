@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" width="1100" height="560" role="img" aria-label="人工智能发展时间线：三次高潮与两次寒冬">
+<title>人工智能发展时间线：三次高潮与两次寒冬</title>
+<style>text{font-family:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','WenQuanYi Zen Hei',sans-serif;fill:#0b0b0b} .s{fill:#52514e} .m{fill:#8a8984}</style>
+<rect width="1100" height="560" rx="12" fill="#fcfcfb"/>
+<text x="550.0" y="40" font-size="24" font-weight="700" text-anchor="middle">人工智能 70 年：三次高潮与两次寒冬</text>
+<text x="550.0" y="66" font-size="14" class="s" text-anchor="middle">曲线表示社会关注度与投入的大致起伏（示意，非精确数据）</text>
+<rect x="382.6" y="90" width="78.2" height="380" fill="#dfe8f3"/>
+<text x="421.7" y="112" font-size="14" text-anchor="middle" class="s">❄ 第一次寒冬</text>
+<rect x="552.0" y="90" width="78.2" height="380" fill="#dfe8f3"/>
+<text x="591.1" y="112" font-size="14" text-anchor="middle" class="s">❄ 第二次寒冬</text>
+<line x1="70.0" y1="470" x2="70.0" y2="476" stroke="#8a8984"/>
+<text x="70.0" y="494" font-size="13" class="m" text-anchor="middle">1950</text>
+<line x1="200.3" y1="470" x2="200.3" y2="476" stroke="#8a8984"/>
+<text x="200.3" y="494" font-size="13" class="m" text-anchor="middle">1960</text>
+<line x1="330.5" y1="470" x2="330.5" y2="476" stroke="#8a8984"/>
+<text x="330.5" y="494" font-size="13" class="m" text-anchor="middle">1970</text>
+<line x1="460.8" y1="470" x2="460.8" y2="476" stroke="#8a8984"/>
+<text x="460.8" y="494" font-size="13" class="m" text-anchor="middle">1980</text>
+<line x1="591.1" y1="470" x2="591.1" y2="476" stroke="#8a8984"/>
+<text x="591.1" y="494" font-size="13" class="m" text-anchor="middle">1990</text>
+<line x1="721.3" y1="470" x2="721.3" y2="476" stroke="#8a8984"/>
+<text x="721.3" y="494" font-size="13" class="m" text-anchor="middle">2000</text>
+<line x1="851.6" y1="470" x2="851.6" y2="476" stroke="#8a8984"/>
+<text x="851.6" y="494" font-size="13" class="m" text-anchor="middle">2010</text>
+<line x1="981.8" y1="470" x2="981.8" y2="476" stroke="#8a8984"/>
+<text x="981.8" y="494" font-size="13" class="m" text-anchor="middle">2020</text>
+<line x1="70" y1="470" x2="1060" y2="470" stroke="#8a8984" stroke-width="1.5"/>
+<path d="M70.0,400.0 C83.0,388.3 113.4,355.0 148.2,330.0 C182.9,305.0 243.7,250.0 278.4,250.0 C313.2,250.0 332.7,301.7 356.6,330.0 C380.5,358.3 400.0,420.0 421.7,420.0 C443.4,420.0 469.5,355.0 486.8,330.0 C504.2,305.0 512.9,261.7 525.9,270.0 C538.9,278.3 549.8,355.0 565.0,380.0 C580.2,405.0 597.6,421.7 617.1,420.0 C636.6,418.3 651.8,381.7 682.2,370.0 C712.6,358.3 766.9,363.3 799.5,350.0 C832.0,336.7 855.9,310.0 877.6,290.0 C899.3,270.0 912.4,248.3 929.7,230.0 C947.1,211.7 968.8,196.7 981.8,180.0 C994.9,163.3 999.2,142.5 1007.9,130.0 C1016.6,117.5 1025.3,110.8 1033.9,105.0 C1042.6,99.2 1055.7,96.7 1060.0,95.0 L1060.0,470 L70.0,470 Z" fill="#2a78d6" fill-opacity=".10"/>
+<path d="M70.0,400.0 C83.0,388.3 113.4,355.0 148.2,330.0 C182.9,305.0 243.7,250.0 278.4,250.0 C313.2,250.0 332.7,301.7 356.6,330.0 C380.5,358.3 400.0,420.0 421.7,420.0 C443.4,420.0 469.5,355.0 486.8,330.0 C504.2,305.0 512.9,261.7 525.9,270.0 C538.9,278.3 549.8,355.0 565.0,380.0 C580.2,405.0 597.6,421.7 617.1,420.0 C636.6,418.3 651.8,381.7 682.2,370.0 C712.6,358.3 766.9,363.3 799.5,350.0 C832.0,336.7 855.9,310.0 877.6,290.0 C899.3,270.0 912.4,248.3 929.7,230.0 C947.1,211.7 968.8,196.7 981.8,180.0 C994.9,163.3 999.2,142.5 1007.9,130.0 C1016.6,117.5 1025.3,110.8 1033.9,105.0 C1042.6,99.2 1055.7,96.7 1060.0,95.0" fill="none" stroke="#2a78d6" stroke-width="3" stroke-linecap="round"/>
+<text x="226.3" y="222" font-size="15" font-weight="700" text-anchor="middle" style="fill:#2a78d6">第一次高潮：符号推理</text>
+<text x="512.9" y="244" font-size="15" font-weight="700" text-anchor="middle" style="fill:#2a78d6">第二次：专家系统</text>
+<text x="825.5" y="150" font-size="15" font-weight="700" text-anchor="middle" style="fill:#2a78d6">第三次：深度学习 → 大模型</text>
+<circle cx="70.0" cy="400.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<text x="70.0" y="386.0" font-size="13" text-anchor="middle">图灵测试</text>
+<circle cx="148.2" cy="330.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<line x1="148.2" y1="336.0" x2="148.2" y2="350.0" stroke="#8a8984" stroke-width="1"/>
+<text x="148.2" y="364.0" font-size="13" text-anchor="middle">达特茅斯会议</text>
+<circle cx="174.2" cy="310.04908" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<text x="174.2" y="296.04908" font-size="13" text-anchor="middle">感知机</text>
+<circle cx="278.4" cy="250.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<line x1="278.4" y1="256.0" x2="278.4" y2="270.0" stroke="#8a8984" stroke-width="1"/>
+<text x="278.4" y="284.0" font-size="13" text-anchor="middle">ELIZA</text>
+<circle cx="538.9" cy="298.7175" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<line x1="538.9" y1="304.7175" x2="538.9" y2="318.7175" stroke="#8a8984" stroke-width="1"/>
+<text x="538.9" y="332.7175" font-size="13" text-anchor="middle">反向传播</text>
+<circle cx="682.2" cy="370.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<text x="682.2" y="356.0" font-size="13" text-anchor="middle">深蓝胜卡斯帕罗夫</text>
+<circle cx="877.6" cy="290.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<line x1="877.6" y1="296.0" x2="877.6" y2="310.0" stroke="#8a8984" stroke-width="1"/>
+<text x="877.6" y="324.0" font-size="13" text-anchor="middle">AlexNet</text>
+<circle cx="929.7" cy="230.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<line x1="929.7" y1="236.0" x2="929.7" y2="250.0" stroke="#8a8984" stroke-width="1"/>
+<text x="929.7" y="264.0" font-size="13" text-anchor="middle">AlphaGo</text>
+<circle cx="942.8" cy="217.30688" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<text x="932.8" y="222.30688" font-size="13" text-anchor="end">Transformer</text>
+<circle cx="981.8" cy="180.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<line x1="981.8" y1="186.0" x2="981.8" y2="200.0" stroke="#8a8984" stroke-width="1"/>
+<text x="981.8" y="214.0" font-size="13" text-anchor="middle">GPT-3</text>
+<circle cx="1007.9" cy="130.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<text x="997.9" y="135.0" font-size="13" text-anchor="end">ChatGPT</text>
+<circle cx="1033.9" cy="105.0" r="5" fill="#fff" stroke="#eb6834" stroke-width="2.5"/>
+<line x1="1033.9" y1="111.0" x2="1033.9" y2="125.0" stroke="#8a8984" stroke-width="1"/>
+<line x1="1033.9" y1="111.0" x2="1033.9" y2="139.0" stroke="#8a8984" stroke-width="1"/>
+<text x="1033.9" y="153.0" font-size="13" text-anchor="middle">推理模型</text>
+<text x="70" y="540" font-size="12" class="m">橙色圆点：里程碑事件</text>
+</svg>
