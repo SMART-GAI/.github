@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" role="img" aria-label="大语言模型参数量增长">
+<title>大语言模型参数量增长</title>
+<style>text{font-family:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','WenQuanYi Zen Hei',sans-serif;fill:#0b0b0b} .s{fill:#52514e} .m{fill:#8a8984}</style>
+<rect width="900" height="480" rx="12" fill="#fcfcfb"/>
+<text x="60" y="44" font-size="22" font-weight="700">公开的大语言模型参数量（对数刻度）</text>
+<text x="60" y="70" font-size="14" class="s">六年间，模型规模增长了数千倍；纵轴每一格代表 10 倍</text>
+<line x1="100" y1="390.0" x2="860" y2="390.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="90" y="394.0" font-size="12" class="m" text-anchor="end">1 亿</text>
+<line x1="100" y1="317.5" x2="860" y2="317.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="90" y="321.5" font-size="12" class="m" text-anchor="end">10 亿</text>
+<line x1="100" y1="245.0" x2="860" y2="245.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="90" y="249.0" font-size="12" class="m" text-anchor="end">100 亿</text>
+<line x1="100" y1="172.5" x2="860" y2="172.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="90" y="176.5" font-size="12" class="m" text-anchor="end">1000 亿</text>
+<line x1="100" y1="100.0" x2="860" y2="100.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="90" y="104.0" font-size="12" class="m" text-anchor="end">1 万亿</text>
+<path d="M128.3,390 V389.1 Q128.3,385.1 132.3,385.1 H194.3 Q198.3,385.1 198.3,389.1 V390 Z" fill="#2a78d6"/>
+<text x="163.3" y="375.1" font-size="14" font-weight="700" text-anchor="middle">1.17 亿</text>
+<text x="163.3" y="412" font-size="14" text-anchor="middle">GPT-1</text>
+<text x="163.3" y="430" font-size="12" class="m" text-anchor="middle">2018</text>
+<path d="M255.0,390 V308.7 Q255.0,304.7 259.0,304.7 H321.0 Q325.0,304.7 325.0,308.7 V390 Z" fill="#2a78d6"/>
+<text x="290.0" y="294.7" font-size="14" font-weight="700" text-anchor="middle">15 亿</text>
+<text x="290.0" y="412" font-size="14" text-anchor="middle">GPT-2</text>
+<text x="290.0" y="430" font-size="12" class="m" text-anchor="middle">2019</text>
+<path d="M381.7,390 V158.9 Q381.7,154.9 385.7,154.9 H447.7 Q451.7,154.9 451.7,158.9 V390 Z" fill="#2a78d6"/>
+<text x="416.7" y="144.9" font-size="14" font-weight="700" text-anchor="middle">1750 亿</text>
+<text x="416.7" y="412" font-size="14" text-anchor="middle">GPT-3</text>
+<text x="416.7" y="430" font-size="12" class="m" text-anchor="middle">2020</text>
+<path d="M508.3,390 V123.4 Q508.3,119.4 512.3,119.4 H574.3 Q578.3,119.4 578.3,123.4 V390 Z" fill="#2a78d6"/>
+<text x="543.3" y="109.4" font-size="14" font-weight="700" text-anchor="middle">5400 亿</text>
+<text x="543.3" y="412" font-size="14" text-anchor="middle">PaLM</text>
+<text x="543.3" y="430" font-size="12" class="m" text-anchor="middle">2022</text>
+<path d="M635.0,390 V132.5 Q635.0,128.5 639.0,128.5 H701.0 Q705.0,128.5 705.0,132.5 V390 Z" fill="#2a78d6"/>
+<text x="670.0" y="118.5" font-size="14" font-weight="700" text-anchor="middle">4050 亿</text>
+<text x="670.0" y="412" font-size="14" text-anchor="middle">Llama 3.1</text>
+<text x="670.0" y="430" font-size="12" class="m" text-anchor="middle">2024</text>
+<path d="M761.7,390 V116.6 Q761.7,112.6 765.7,112.6 H827.7 Q831.7,112.6 831.7,116.6 V390 Z" fill="#2a78d6"/>
+<text x="796.7" y="102.6" font-size="14" font-weight="700" text-anchor="middle">6710 亿*</text>
+<text x="796.7" y="412" font-size="14" text-anchor="middle">DeepSeek-V3</text>
+<text x="796.7" y="430" font-size="12" class="m" text-anchor="middle">2024</text>
+<line x1="100" y1="390" x2="860" y2="390" stroke="#8a8984" stroke-width="1.5"/>
+<text x="60" y="462" font-size="12" class="m">* DeepSeek-V3 为“混合专家”结构，每次只激活约 370 亿参数。2023 年后多家头部闭源模型不再公布参数量，故未列出。</text>
+</svg>
