@@ -49,10 +49,10 @@ global contributors to collectively advance the future of intelligent systems.
 
 An illustrated, beginner-friendly series on Artificial General Intelligence: [Series index](https://github.com/SMART-GAI/.github/blob/main/blog/README.md)
 
-1. [What Is AGI? 什么是通用人工智能？](https://github.com/SMART-GAI/.github/blob/main/blog/01-what-is-agi.md)
-2. [Seventy Years of AI History 七十年风雨路——AGI 的发展历史](https://github.com/SMART-GAI/.github/blob/main/blog/02-history.md)
-3. [AGI in the Era of Large Models 大模型时代——AGI 的现状](https://github.com/SMART-GAI/.github/blob/main/blog/03-present.md)
-4. [The Future of AGI AGI 的未来——路线、挑战与希望](https://github.com/SMART-GAI/.github/blob/main/blog/04-future.md)
+1. [What Is AGI? · 什么是通用人工智能？](https://github.com/SMART-GAI/.github/blob/main/blog/01-what-is-agi.md)
+2. [Seventy Years of AI History · 七十年风雨路——AGI 的发展历史](https://github.com/SMART-GAI/.github/blob/main/blog/02-history.md)
+3. [AGI in the Era of Large Models · 大模型时代——AGI 的现状](https://github.com/SMART-GAI/.github/blob/main/blog/03-present.md)
+4. [The Future of AGI · AGI 的未来——路线、挑战与希望](https://github.com/SMART-GAI/.github/blob/main/blog/04-future.md)
 
 ## Join the Open-Source Evolution
 
