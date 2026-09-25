@@ -49,6 +49,15 @@
 3. [大模型时代——AGI 的现状](https://github.com/SMART-GAI/.github/blob/main/blog/03-present.md)
 4. [AGI 的未来——路线、挑战与希望](https://github.com/SMART-GAI/.github/blob/main/blog/04-future.md)
 
+## 🛠 设计文档：小而聪明的 AGI——雀脑 SMART-Sparrow
+
+低算力、熟能生巧、与人类同款视听输入/笔迹-画面-声音输出、全程可观测：[设计文档总览](https://github.com/SMART-GAI/.github/blob/main/design/README.md) ｜ 实现仓库：[SMART-SPARROW](https://github.com/SMART-GAI/SMART-SPARROW)
+
+1. [五条候选路线与评审](https://github.com/SMART-GAI/.github/blob/main/design/01-five-routes.md)
+2. [推荐综合架构：雀脑 v1](https://github.com/SMART-GAI/.github/blob/main/design/02-sparrow-architecture.md)
+3. [上帝视角观测平台](https://github.com/SMART-GAI/.github/blob/main/design/03-god-view-platform.md)
+4. [路线图与关键实验](https://github.com/SMART-GAI/.github/blob/main/design/04-roadmap-and-experiments.md)
+
 ## 加入开源进化计划
 
 作为社区驱动的开源项目，SMART诚邀研究者、工程师与创意先锋在多模态数据集构建、高效能模型优化、人机交互设计与AI伦理治理等领域贡献力量。

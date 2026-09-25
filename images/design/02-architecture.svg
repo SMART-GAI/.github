@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1340 1116" width="1340" height="1116" role="img" aria-label="SMART-Sparrow v1 综合架构：6 层 19 个模块">
+<title>SMART-Sparrow v1 综合架构：6 层 19 个模块</title>
+<defs><marker id="ah52514e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0.6 L10,5 L0,9.4 z" fill="#52514e"/></marker><marker id="ah008300" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0.6 L10,5 L0,9.4 z" fill="#008300"/></marker><marker id="aheb6834" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0.6 L10,5 L0,9.4 z" fill="#eb6834"/></marker><marker id="ah8a8984" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0.6 L10,5 L0,9.4 z" fill="#8a8984"/></marker></defs>
+<style>text{font-family:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','WenQuanYi Zen Hei',sans-serif;fill:#0b0b0b} .s{fill:#52514e} .m{fill:#8a8984}</style>
+<rect width="1340" height="1116" rx="12" fill="#fcfcfb"/>
+<text x="40.0" y="42.0" font-size="22" font-weight="700">SMART-Sparrow（雀脑）v1：6 层 19 个模块</text>
+<text x="40.0" y="68.0" font-size="14" class="s">神经网络只守两端（感觉前端、效应器）；中间的记忆、判断、推理、调度交给非参数结构和经典算法，全程向观测台发布事件。</text>
+<rect x="200.0" y="190.0" width="860.0" height="108.0" rx="10" fill="#ecf3fb" stroke="#9fc2ed" stroke-width="1.2"/>
+<rect x="200.0" y="190.0" width="6.0" height="108.0" rx="3" fill="#2a78d6"/>
+<text x="216.0" y="218.0" font-size="12" class="m">第一层</text>
+<text x="216.0" y="239.0" font-size="15" font-weight="700">感觉前端</text>
+<text x="216.0" y="260.0" font-size="11" class="s">神经网络 · 输入端</text>
+<rect x="318.0" y="198.0" width="238.7" height="92.0" rx="7" fill="#fff" stroke="#7faee6" stroke-width="1.3"/>
+<text x="327.0" y="218.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M0</text>
+<text x="349.9" y="218.0" font-size="13" font-weight="700">事件闸门</text>
+<text x="327.0" y="236.0" font-size="11.5" class="s">帧差 / MOG2 · 谱残差显著性</text>
+<text x="327.0" y="251.5" font-size="11.5" class="s">Silero VAD · 中文 KWS</text>
+<text x="327.0" y="267.0" font-size="11.5" class="s">30s 视听环形缓冲 · 按需唤醒 M1 / M2</text>
+<rect x="564.7" y="198.0" width="238.7" height="92.0" rx="7" fill="#fff" stroke="#7faee6" stroke-width="1.3"/>
+<text x="573.7" y="218.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M1</text>
+<text x="596.6" y="218.0" font-size="13" font-weight="700">视觉级联</text>
+<text x="573.7" y="236.0" font-size="11.5" class="s">MobileNetV3 要旨 · DINOv2 中央凹</text>
+<text x="573.7" y="251.5" font-size="11.5" class="s">EdgeSAM 分割 · ByteTrack + IMM</text>
+<text x="573.7" y="267.0" font-size="11.5" class="s">MediaPipe 手 / 姿态 / 脸</text>
+<text x="573.7" y="282.5" font-size="11.5" class="s">PP-OCRv5 + HCCR</text>
+<rect x="811.3" y="198.0" width="238.7" height="92.0" rx="7" fill="#fff" stroke="#7faee6" stroke-width="1.3"/>
+<text x="820.3" y="218.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M2</text>
+<text x="843.2" y="218.0" font-size="13" font-weight="700">听觉前端</text>
+<text x="820.3" y="236.0" font-size="11.5" class="s">AEC3 + 自听支路 · 流式 Zipformer</text>
+<text x="820.3" y="251.5" font-size="11.5" class="s">语义早端点 · segmental DTW</text>
+<text x="820.3" y="267.0" font-size="11.5" class="s">WORLD F0 声调 · ECAPA 说话人</text>
+<rect x="200.0" y="336.0" width="860.0" height="108.0" rx="10" fill="#fdf1ed" stroke="#f6bba4" stroke-width="1.2"/>
+<rect x="200.0" y="336.0" width="6.0" height="108.0" rx="3" fill="#eb6834"/>
+<text x="216.0" y="364.0" font-size="12" class="m">第二层</text>
+<text x="216.0" y="385.0" font-size="15" font-weight="700">落地与语言</text>
+<text x="216.0" y="406.0" font-size="11" class="s">原型与符号</text>
+<rect x="318.0" y="344.0" width="362.0" height="92.0" rx="7" fill="#fff" stroke="#f3a485" stroke-width="1.3"/>
+<text x="327.0" y="364.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M3</text>
+<text x="349.9" y="364.0" font-size="13" font-weight="700">概念中枢 · 落地束</text>
+<text x="327.0" y="382.0" font-size="11.5" class="s">hub + spoke：认 / 写 / 画 / 说同一表示 · NCM + Deep SLDA</text>
+<text x="327.0" y="397.5" font-size="11.5" class="s">共同注意贝叶斯绑定 · kNN 开集 · ACI / Mondrian 共形</text>
+<rect x="688.0" y="344.0" width="362.0" height="92.0" rx="7" fill="#fff" stroke="#f3a485" stroke-width="1.3"/>
+<text x="697.0" y="364.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M4</text>
+<text x="719.9" y="364.0" font-size="13" font-weight="700">语言理解</text>
+<text x="697.0" y="382.0" font-size="11.5" class="s">Lark / WFST 句式语法 · CRF 槽位 · LightGBM 意图</text>
+<text x="697.0" y="397.5" font-size="11.5" class="s">WeTextProcessing 数词</text>
+<text x="697.0" y="413.0" font-size="11.5" class="s">Qwen2.5-0.5B 按需懒加载（GBNF 约束）</text>
+<rect x="200.0" y="482.0" width="860.0" height="108.0" rx="10" fill="#eaf8f3" stroke="#98dbc3" stroke-width="1.2"/>
+<rect x="200.0" y="482.0" width="6.0" height="108.0" rx="3" fill="#1baf7a"/>
+<text x="216.0" y="510.0" font-size="12" class="m">第三层</text>
+<text x="216.0" y="531.0" font-size="15" font-weight="700">认知骨架</text>
+<text x="216.0" y="552.0" font-size="11" class="s">经典算法 · 调度</text>
+<rect x="318.0" y="490.0" width="177.0" height="92.0" rx="7" fill="#fff" stroke="#76cfaf" stroke-width="1.3"/>
+<text x="327.0" y="510.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M5</text>
+<text x="349.9" y="510.0" font-size="13" font-weight="700">全局工作空间</text>
+<text x="327.0" y="528.0" font-size="11.5" class="s">10Hz 认知周期 · 4–7 组块联盟</text>
+<text x="327.0" y="543.5" font-size="11.5" class="s">LightGBM 排序</text>
+<text x="327.0" y="559.0" font-size="11.5" class="s">STN 输出同步</text>
+<rect x="503.0" y="490.0" width="177.0" height="92.0" rx="7" fill="#fff" stroke="#76cfaf" stroke-width="1.3"/>
+<text x="512.0" y="510.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M6</text>
+<text x="534.9" y="510.0" font-size="13" font-weight="700">元认知路由器</text>
+<text x="512.0" y="528.0" font-size="11.5" class="s">置信度契约 · CART 深度 ≤6</text>
+<text x="512.0" y="543.5" font-size="11.5" class="s">FAST/VERIFY/SLOW/ASK</text>
+<text x="512.0" y="559.0" font-size="11.5" class="s">经验性能模型</text>
+<rect x="688.0" y="490.0" width="177.0" height="92.0" rx="7" fill="#fff" stroke="#76cfaf" stroke-width="1.3"/>
+<text x="697.0" y="510.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M7</text>
+<text x="719.9" y="510.0" font-size="13" font-weight="700">技能缓存</text>
+<text x="697.0" y="528.0" font-size="11.5" class="s">Soar / CLIPS chunking</text>
+<text x="697.0" y="543.5" font-size="11.5" class="s">L0–L3 晋级 · Beta 后验</text>
+<text x="697.0" y="559.0" font-size="11.5" class="s">Minton 剪枝</text>
+<rect x="873.0" y="490.0" width="177.0" height="92.0" rx="7" fill="#fff" stroke="#76cfaf" stroke-width="1.3"/>
+<text x="882.0" y="510.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M8</text>
+<text x="904.9" y="510.0" font-size="13" font-weight="700">海马情景记忆</text>
+<text x="882.0" y="528.0" font-size="11.5" class="s">事件分割 · HNSW + IVF-PQ</text>
+<text x="882.0" y="543.5" font-size="11.5" class="s">Hopfield 重排 · 冷热分层</text>
+<rect x="200.0" y="628.0" width="860.0" height="108.0" rx="10" fill="#fdf7e8" stroke="#f7d58c" stroke-width="1.2"/>
+<rect x="200.0" y="628.0" width="6.0" height="108.0" rx="3" fill="#eda100"/>
+<text x="216.0" y="656.0" font-size="12" class="m">第四层</text>
+<text x="216.0" y="677.0" font-size="15" font-weight="700">专家工具箱</text>
+<text x="216.0" y="698.0" font-size="11" class="s">精确推理 · 模拟</text>
+<rect x="318.0" y="636.0" width="362.0" height="92.0" rx="7" fill="#fff" stroke="#f4c766" stroke-width="1.3"/>
+<text x="327.0" y="656.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M9</text>
+<text x="349.9" y="656.0" font-size="13" font-weight="700">符号推理与规划</text>
+<text x="327.0" y="674.0" font-size="11.5" class="s">精确算术 / SymPy · clingo / Scallop · HTN / A* / MCTS</text>
+<text x="327.0" y="689.5" font-size="11.5" class="s">CP-SAT 版面 · Stitch 库学习</text>
+<rect x="688.0" y="636.0" width="362.0" height="92.0" rx="7" fill="#fff" stroke="#f4c766" stroke-width="1.3"/>
+<text x="697.0" y="656.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M10</text>
+<text x="727.4" y="656.0" font-size="13" font-weight="700">世界模型与心理模拟</text>
+<text x="697.0" y="674.0" font-size="11.5" class="s">MOG2 + Hough 测量 · 卡尔曼 + IMM</text>
+<text x="697.0" y="689.5" font-size="11.5" class="s">NumPy 解析积分 / pymunk · 精度加权残差 · 惊奇信号 · QPT 叙述</text>
+<rect x="200.0" y="774.0" width="860.0" height="108.0" rx="10" fill="#fdf3f7" stroke="#f5c4d6" stroke-width="1.2"/>
+<rect x="200.0" y="774.0" width="6.0" height="108.0" rx="3" fill="#e87ba4"/>
+<text x="216.0" y="802.0" font-size="12" class="m">第五层</text>
+<text x="216.0" y="823.0" font-size="15" font-weight="700">效应器</text>
+<text x="216.0" y="844.0" font-size="11" class="s">神经网络 · 输出端</text>
+<rect x="318.0" y="782.0" width="238.7" height="92.0" rx="7" fill="#fff" stroke="#f1b0c8" stroke-width="1.3"/>
+<text x="327.0" y="802.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M11</text>
+<text x="357.4" y="802.0" font-size="13" font-weight="700">笔运动系统</text>
+<text x="327.0" y="820.0" font-size="11.5" class="s">sigma-lognormal · ProMP</text>
+<text x="327.0" y="835.5" font-size="11.5" class="s">身体图式单应 · 摊销逆模型</text>
+<text x="327.0" y="851.0" font-size="11.5" class="s">ILC 读回修正</text>
+<rect x="564.7" y="782.0" width="238.7" height="92.0" rx="7" fill="#fff" stroke="#f1b0c8" stroke-width="1.3"/>
+<text x="573.7" y="802.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M12</text>
+<text x="604.1" y="802.0" font-size="13" font-weight="700">屏幕渲染</text>
+<text x="573.7" y="820.0" font-size="11.5" class="s">Skia 逐笔动画 · 线稿网络 + RDP</text>
+<text x="573.7" y="835.5" font-size="11.5" class="s">部件程序 · ARAP 形变 · 精灵合成</text>
+<rect x="811.3" y="782.0" width="238.7" height="92.0" rx="7" fill="#fff" stroke="#f1b0c8" stroke-width="1.3"/>
+<text x="820.3" y="802.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M13</text>
+<text x="850.8" y="802.0" font-size="13" font-weight="700">语音输出</text>
+<text x="820.3" y="820.0" font-size="11.5" class="s">模板 NLG · 数字读法规则</text>
+<text x="820.3" y="835.5" font-size="11.5" class="s">Matcha-TTS + Vocos · 波形缓存</text>
+<rect x="200.0" y="920.0" width="860.0" height="108.0" rx="10" fill="#e8f4e8" stroke="#8cc78c" stroke-width="1.2"/>
+<rect x="200.0" y="920.0" width="6.0" height="108.0" rx="3" fill="#008300"/>
+<text x="216.0" y="944.0" font-size="12" class="m">第六层</text>
+<text x="216.0" y="965.0" font-size="15" font-weight="700">学习 · 社会</text>
+<text x="216.0" y="984.0" font-size="15" font-weight="700">与观测</text>
+<text x="216.0" y="1005.0" font-size="11" class="s">闭环 · 睡眠 · 观测</text>
+<rect x="318.0" y="928.0" width="140.0" height="92.0" rx="7" fill="#fff" stroke="#66b566" stroke-width="1.3"/>
+<text x="327.0" y="948.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M14</text>
+<text x="357.4" y="948.0" font-size="13" font-weight="700">自我监控</text>
+<text x="327.0" y="966.0" font-size="11.5" class="s">真实感官读回</text>
+<text x="327.0" y="981.5" font-size="11.5" class="s">社会反馈检测</text>
+<text x="327.0" y="997.0" font-size="11.5" class="s">错误归因 · 划掉重写</text>
+<rect x="466.0" y="928.0" width="140.0" height="92.0" rx="7" fill="#fff" stroke="#66b566" stroke-width="1.3"/>
+<text x="475.0" y="948.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M15</text>
+<text x="505.4" y="948.0" font-size="13" font-weight="700">好奇与练习</text>
+<text x="475.0" y="966.0" font-size="11.5" class="s">学习进度老虎机</text>
+<text x="475.0" y="981.5" font-size="11.5" class="s">屏幕物理沙盒</text>
+<rect x="614.0" y="928.0" width="140.0" height="92.0" rx="7" fill="#fff" stroke="#66b566" stroke-width="1.3"/>
+<text x="623.0" y="948.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M16</text>
+<text x="653.4" y="948.0" font-size="13" font-weight="700">睡眠巩固</text>
+<text x="623.0" y="966.0" font-size="11.5" class="s">优先重放 · 编译蒸馏</text>
+<text x="623.0" y="981.5" font-size="11.5" class="s">Stitch · 金丝雀回滚</text>
+<text x="623.0" y="997.0" font-size="11.5" class="s">CI 损伤测试</text>
+<rect x="762.0" y="928.0" width="140.0" height="92.0" rx="7" fill="#fff" stroke="#66b566" stroke-width="1.3"/>
+<text x="771.0" y="948.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M17</text>
+<text x="801.4" y="948.0" font-size="13" font-weight="700">上帝视角观测台</text>
+<text x="771.0" y="966.0" font-size="11.5" class="s">事件溯源 · 因果父 ID</text>
+<text x="771.0" y="981.5" font-size="11.5" class="s">快照回放 · 11 个视图</text>
+<rect x="910.0" y="928.0" width="140.0" height="92.0" rx="7" fill="#fff" stroke="#66b566" stroke-width="1.3"/>
+<text x="919.0" y="948.0" font-size="13" font-weight="700" style="fill:#0b0b0b">M18</text>
+<text x="949.4" y="948.0" font-size="13" font-weight="700">先天固件清单</text>
+<text x="919.0" y="966.0" font-size="11.5" class="s">先天符号桥 · 句式种子</text>
+<text x="919.0" y="981.5" font-size="11.5" class="s">物理先验 · 消融实验</text>
+<rect x="450.0" y="88.0" width="220.0" height="52.0" rx="10" fill="#fff" stroke="#52514e" stroke-width="1.5"/>
+<rect x="463.0" y="105.0" width="30.0" height="20.0" rx="4" fill="#fff" stroke="#52514e" stroke-width="1.6"/>
+<rect x="472.0" y="101.0" width="12.0" height="5.0" rx="1.5" fill="#52514e"/>
+<circle cx="478.0" cy="115.0" r="6" fill="#fff" stroke="#52514e" stroke-width="1.6"/>
+<circle cx="478.0" cy="115.0" r="2.2" fill="#52514e"/>
+<text x="502.0" y="110.0" font-size="14" font-weight="700">摄像头 ×1</text>
+<text x="502.0" y="129.0" font-size="11.5" class="s">≥1080p（建议 4K）· 30fps</text>
+<path d="M560.0,140.0 L560.0,166.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<rect x="750.0" y="88.0" width="220.0" height="52.0" rx="10" fill="#fff" stroke="#52514e" stroke-width="1.5"/>
+<rect x="773.0" y="101.0" width="10.0" height="17.0" rx="5" fill="#fff" stroke="#52514e" stroke-width="1.6"/>
+<path d="M769,112 Q769,123 778,123 Q787,123 787,112" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M778,123 V128 M773,128 H783" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="802.0" y="110.0" font-size="14" font-weight="700">麦克风 ×2</text>
+<text x="802.0" y="129.0" font-size="11.5" class="s">16kHz · AEC3 保留自听</text>
+<path d="M860.0,140.0 L860.0,166.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<path d="M358,168 H1010" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="316.0" y="162.0" font-size="12" text-anchor="end" class="s">原始像素与波形（唯一输入）</text>
+<path d="M437.3,168.0 L437.3,197.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<path d="M684.0,168.0 L684.0,197.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<path d="M930.7,168.0 L930.7,197.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<path d="M499.0,298.0 L499.0,335.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="509.0" y="321.5" font-size="12" class="s">感知记录：嵌入 · 候选符号 · 结构 · 置信度契约 → M3 / M5 / M8</text>
+<path d="M499.0,444.0 L499.0,481.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="509.0" y="467.5" font-size="12" class="s">概念 ID · 任务框架 → 黑板竞争与广播</text>
+<path d="M406.5,628.0 L406.5,591.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="416.5" y="613.5" font-size="12" class="s">anytime 结果回黑板</text>
+<path d="M591.5,590.0 L591.5,627.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="601.5" y="613.5" font-size="12" class="s">SLOW：按期望效用调用专家</text>
+<path d="M499.0,736.0 L499.0,773.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="509.0" y="759.5" font-size="12" class="s">笔迹 / 草图 / 语音计划 → STN 同步</text>
+<path d="M388.0,882.0 L388.0,919.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="398.0" y="905.5" font-size="12" class="s">动作与读回 → M14 奖励、错误归因</text>
+<path d="M684.0,920.0 L684.0,883.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="694.0" y="905.5" font-size="12" class="s">睡眠巩固写回 M3 / M7 / M8 与小网络</text>
+<path d="M1060,536.0 H1095 V758 H807.3 V773" fill="none" stroke="#008300" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah008300)"/>
+<rect x="1105.0" y="658.0" width="138.0" height="48.0" rx="8" fill="#fff" stroke="#008300" stroke-width="1.4"/>
+<text x="1117.0" y="678.0" font-size="13" font-weight="700">FAST 直达</text>
+<text x="1117.0" y="696.0" font-size="11.5" class="s">L2 / L3 技能 · &lt;10ms</text>
+<rect x="1140.0" y="776.0" width="168.0" height="32.0" rx="8" fill="#fff" stroke="#52514e" stroke-width="1.5"/>
+<rect x="1146.0" y="782.0" width="30.0" height="22.0" rx="3" fill="#fff" stroke="#52514e" stroke-width="1.6"/>
+<path d="M1152,797.0 q4,-9 8,-2 t8,-3" fill="none" stroke="#52514e" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1169,806.0 L1179,790.0" fill="none" stroke="#52514e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1184.0" y="796.5" font-size="12.5">带屏手写板（M11）</text>
+<path d="M1060.0,792.0 L1139.0,792.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<rect x="1140.0" y="814.0" width="168.0" height="32.0" rx="8" fill="#fff" stroke="#52514e" stroke-width="1.5"/>
+<rect x="1146.0" y="819.0" width="32.0" height="21.0" rx="2.5" fill="#fff" stroke="#52514e" stroke-width="1.6"/>
+<path d="M1162,840.0 V844.0 M1155,844.0 H1169" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1184.0" y="834.5" font-size="12.5">屏幕画布（M12）</text>
+<path d="M1060.0,830.0 L1139.0,830.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<rect x="1140.0" y="852.0" width="168.0" height="32.0" rx="8" fill="#fff" stroke="#52514e" stroke-width="1.5"/>
+<path d="M1149,864.0 H1155 L1162,858.0 V880.0 L1155,874.0 H1149 Z" fill="#fff" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1167,864.0 Q1171,869.0 1167,874.0 M1171,860.0 Q1178,869.0 1171,878.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1184.0" y="872.5" font-size="12.5">扬声器（M13）</text>
+<path d="M1060.0,868.0 L1139.0,868.0" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="1140.0" y="942.0" font-size="12" class="s">✕ 没有文本输出通道</text>
+<text x="1140.0" y="960.0" font-size="11.5" class="m">屏上的字也由笔画程序画出</text>
+<path d="M1308,828.0 H1322 V114 H971" fill="none" stroke="#eb6834" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#aheb6834)"/>
+<rect x="1140.0" y="346.0" width="168.0" height="88.0" rx="8" fill="#fff" stroke="#eb6834" stroke-width="1.4"/>
+<text x="1152.0" y="370.0" font-size="13" font-weight="700">再感知闭环</text>
+<text x="1152.0" y="390.0" font-size="11.5" class="s">自己写的、画的、说的</text>
+<text x="1152.0" y="405.0" font-size="11.5" class="s">只能经摄像头和麦克风</text>
+<text x="1152.0" y="420.0" font-size="11.5" class="s">重新读回</text>
+<rect x="30.0" y="190.0" width="148.0" height="838.0" rx="10" fill="#f4f3ef" stroke="#8a8984" stroke-width="1.3" stroke-dasharray="4 4"/>
+<text x="42.0" y="216.0" font-size="15" font-weight="700">观测旁路</text>
+<text x="42.0" y="238.0" font-size="12" class="s">事件总线 tap</text>
+<text x="42.0" y="255.0" font-size="12" class="s">单向玻璃 · 只读</text>
+<text x="42.0" y="366.0" font-size="12" class="s">每一步都发布带</text>
+<text x="42.0" y="383.0" font-size="12" class="s">因果父 ID 的事件：</text>
+<text x="46.0" y="408.0" font-size="12" style="font-family:'SFMono-Regular','Menlo','Consolas','DejaVu Sans Mono',monospace">percept</text>
+<text x="46.0" y="427.0" font-size="12" style="font-family:'SFMono-Regular','Menlo','Consolas','DejaVu Sans Mono',monospace">hypothesis</text>
+<text x="46.0" y="446.0" font-size="12" style="font-family:'SFMono-Regular','Menlo','Consolas','DejaVu Sans Mono',monospace">decision</text>
+<text x="46.0" y="465.0" font-size="12" style="font-family:'SFMono-Regular','Menlo','Consolas','DejaVu Sans Mono',monospace">action</text>
+<text x="46.0" y="484.0" font-size="12" style="font-family:'SFMono-Regular','Menlo','Consolas','DejaVu Sans Mono',monospace">outcome</text>
+<text x="46.0" y="503.0" font-size="12" style="font-family:'SFMono-Regular','Menlo','Consolas','DejaVu Sans Mono',monospace">learn</text>
+<text x="46.0" y="522.0" font-size="12" style="font-family:'SFMono-Regular','Menlo','Consolas','DejaVu Sans Mono',monospace">consolidate</text>
+<text x="42.0" y="688.0" font-size="11.5" class="s">Parquet + DuckDB</text>
+<text x="42.0" y="705.0" font-size="11.5" class="s">快照 + 消息日志回放</text>
+<text x="42.0" y="722.0" font-size="11.5" class="s">实验者只碰快照副本</text>
+<path d="M200.0,244.0 L179.0,244.0" fill="none" stroke="#8a8984" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 3" marker-end="url(#ah8a8984)"/>
+<path d="M200.0,390.0 L179.0,390.0" fill="none" stroke="#8a8984" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 3" marker-end="url(#ah8a8984)"/>
+<path d="M200.0,536.0 L179.0,536.0" fill="none" stroke="#8a8984" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 3" marker-end="url(#ah8a8984)"/>
+<path d="M200.0,682.0 L179.0,682.0" fill="none" stroke="#8a8984" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 3" marker-end="url(#ah8a8984)"/>
+<path d="M200.0,828.0 L179.0,828.0" fill="none" stroke="#8a8984" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 3" marker-end="url(#ah8a8984)"/>
+<path d="M200.0,974.0 L179.0,974.0" fill="none" stroke="#8a8984" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 3" marker-end="url(#ah8a8984)"/>
+<path d="M104.0,1028 V1044 H832.0 V1021.0" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 3" marker-end="url(#ah8a8984)"/>
+<text x="842.0" y="1061.0" font-size="12" class="s">汇入 M17 上帝视角观测台</text>
+<path d="M40,1094 h36" fill="none" stroke="#52514e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah52514e)"/>
+<text x="86.0" y="1098.0" font-size="12" class="s">主数据流</text>
+<path d="M170,1094 h36" fill="none" stroke="#008300" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah008300)"/>
+<text x="216.0" y="1098.0" font-size="12" class="s">FAST 快通道</text>
+<path d="M320,1094 h36" fill="none" stroke="#eb6834" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#aheb6834)"/>
+<text x="366.0" y="1098.0" font-size="12" class="s">再感知闭环</text>
+<path d="M460,1094 h36" fill="none" stroke="#8a8984" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 3" marker-end="url(#ah8a8984)"/>
+<text x="506.0" y="1098.0" font-size="12" class="s">观测旁路（只读）</text>
+</svg>

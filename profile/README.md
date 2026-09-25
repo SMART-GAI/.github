@@ -54,6 +54,15 @@ An illustrated, beginner-friendly series on Artificial General Intelligence: [Se
 3. [AGI in the Era of Large Models · 大模型时代——AGI 的现状](https://github.com/SMART-GAI/.github/blob/main/blog/03-present.md)
 4. [The Future of AGI · AGI 的未来——路线、挑战与希望](https://github.com/SMART-GAI/.github/blob/main/blog/04-future.md)
 
+## 🛠 Design Docs: SMART-Sparrow, a Small Yet Smart AGI (in Chinese)
+
+Low compute, "practice makes perfect", human-like raw audio-visual input with handwriting/screen/voice output, fully observable: [Design overview](https://github.com/SMART-GAI/.github/blob/main/design/README.md) · Implementation: [SMART-SPARROW](https://github.com/SMART-GAI/SMART-SPARROW)
+
+1. [Five Candidate Routes · 五条候选路线与评审](https://github.com/SMART-GAI/.github/blob/main/design/01-five-routes.md)
+2. [Recommended Architecture · 推荐综合架构：雀脑 v1](https://github.com/SMART-GAI/.github/blob/main/design/02-sparrow-architecture.md)
+3. [God's-Eye Observatory · 上帝视角观测平台](https://github.com/SMART-GAI/.github/blob/main/design/03-god-view-platform.md)
+4. [Roadmap & Experiments · 路线图与关键实验](https://github.com/SMART-GAI/.github/blob/main/design/04-roadmap-and-experiments.md)
+
 ## Join the Open-Source Evolution
 
 As a community-driven initiative, SMART welcomes researchers, engineers, and creative thinkers to contribute across multiple dimensions: multimodal dataset curation, energy-efficient model optimization, human-AI interaction design, and ethical AI governance. Let's work together to prove that true intelligence thrives not in scale, but in smart design.
